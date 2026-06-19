@@ -1,0 +1,51 @@
+{
+  "personas": [
+    {
+      "name": "Representante de Talento Humano",
+      "role": "representante de talento humano, organizador principal del evento",
+      "primary": true
+    },
+    {
+      "name": "Capitán de equipo",
+      "role": "capitán de equipo",
+      "primary": true
+    },
+    {
+      "name": "Árbitro / responsable de mesa de control",
+      "role": "árbitro / mesa de control",
+      "primary": false
+    },
+    {
+      "name": "Jugador / colaborador de plantilla",
+      "role": "jugador / colaborador",
+      "primary": false
+    }
+  ],
+  "pains": [
+    {
+      "id": "pesadilla-listas",
+      "source": "human-talent-manager.md",
+      "persona": "Representante de Talento Humano"
+    },
+    {
+      "id": "telefono-roto-arbitraje",
+      "source": "human-talent-manager.md",
+      "persona": "Representante de Talento Humano"
+    },
+    {
+      "id": "logistica-ciegas",
+      "source": "captain.md",
+      "persona": "Capitán de equipo"
+    },
+    {
+      "id": "falta-transparencia-rivales",
+      "source": "captain.md",
+      "persona": "Capitán de equipo"
+    },
+    {
+      "id": "carga-administrativa-capitan",
+      "source": "captain.md",
+      "persona": "Capitán de equipo"
+    }
+  ]
+}
