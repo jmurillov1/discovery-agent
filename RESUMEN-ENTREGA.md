@@ -31,6 +31,8 @@ restaurar las entrevistas, el comando pasó sin problema.
 
 **Video de la demo:** https://youtu.be/JrJJfxiCvsY (no listado)
 
+[![Ver video de la demo del gate](https://img.youtube.com/vi/JrJJfxiCvsY/maxresdefault.jpg)](https://youtu.be/JrJJfxiCvsY)
+
 El archivo original también queda en el repo como respaldo:
 [`discovery-agent-readiness-gate-evidence.mp4`](./discovery-agent-readiness-gate-evidence.mp4)
 (supera el límite de previsualización en línea de GitHub, así que ese enlace
