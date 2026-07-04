@@ -29,12 +29,12 @@ entrevistas de Staff y Capitán antes de correr `generate-mvp`; el hook bloqueó
 señalando exactamente qué personas quedaban sin respaldo de primera mano. Al
 restaurar las entrevistas, el comando pasó sin problema.
 
-**Video de la demo:** [`discovery-agent-readiness-gate-evidence.mp4`](./discovery-agent-readiness-gate-evidence.mp4)
+**Video de la demo:** https://youtu.be/JrJJfxiCvsY (no listado)
 
-> El archivo supera el límite de previsualización en línea de GitHub para
-> archivos de video, así que el enlace abre la página del archivo con la
-> opción de descargarlo ("View raw" / "Download"). Descárgalo y ábrelo con
-> cualquier reproductor local para ver la demo del gate.
+El archivo original también queda en el repo como respaldo:
+[`discovery-agent-readiness-gate-evidence.mp4`](./discovery-agent-readiness-gate-evidence.mp4)
+(supera el límite de previsualización en línea de GitHub, así que ese enlace
+solo permite descargarlo).
 
 ## Verificación de trazabilidad
 

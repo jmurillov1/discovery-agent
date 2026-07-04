@@ -62,8 +62,8 @@ General), hoy operado con validación manual.
   historias INVEST), `mvp-canvas.md`, `hypotheses.md` (3 hipótesis falsables
   priorizadas por riesgo), `experiment-board.json` y `report.html`.
 - **Demo del gate:** el `readiness-gate` se probó bloqueando y resolviendo un
-  caso real de evidencia incompleta. Evidencia en video:
-  `discovery-agent-readiness-gate-evidence.mp4`.
+  caso real de evidencia incompleta. Video: https://youtu.be/JrJJfxiCvsY
+  (también en el repo como `discovery-agent-readiness-gate-evidence.mp4`).
 - **Reflexión de la entrega:** `REFLEXION.md`.
 
 Otros discoveries en el repo (`quiniela`, `stickertrack`) tienen evidencia
