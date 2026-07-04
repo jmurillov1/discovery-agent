@@ -1,0 +1,14 @@
+{
+  "personas": [
+    { "name": "A. (administrador)", "role": "administrador", "primary": true },
+    { "name": "St. (staff operativo)", "role": "staff", "primary": true },
+    { "name": "C. (capitán)", "role": "capitan", "primary": true }
+  ],
+  "pains": [
+    { "id": "carga-operativa-validacion-manual", "source": "administrador.md", "persona": "Administrador" },
+    { "id": "interpretaciones-subjetivas-reglamento", "source": "administrador.md", "persona": "Administrador" },
+    { "id": "colores-equipo-fijos", "source": "administrador.md", "persona": "Administrador" },
+    { "id": "dependencia-de-quien-registro-resultado", "source": "staff.md", "persona": "Staff operativo" },
+    { "id": "falta-transparencia-nominas", "source": "capitan.md", "persona": "Capitán de equipo" }
+  ]
+}

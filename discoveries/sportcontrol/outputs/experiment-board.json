@@ -1,0 +1,34 @@
+{
+  "hypotheses": [
+    {
+      "id": "H-01",
+      "risk": "alto",
+      "assumption": "Permitir que cualquier Staff corrija cualquier resultado de la edición activa sin aprobación no genera errores no detectados ni disputas de reglamento.",
+      "hypothesis": "Creemos que el Staff logrará mantener la Tabla General confiable sin proceso de aprobación si mantenemos la corrección libre entre Staff, porque conocen las reglas y actúan en tiempo real durante el partido (staff.md).",
+      "metric": "Número de correcciones de resultados que generan una disputa formal de un Capitán o Administrador, y proporción de resultados que requieren una segunda corrección por error, durante una jornada piloto.",
+      "threshold": "Menos del 5% de los resultados registrados requieren una segunda corrección por error, y cero disputas formales de Capitanes sobre resultados finales en la jornada piloto.",
+      "experiment": "Mago de Oz / piloto controlado: operar una jornada real del torneo con 2-3 Staff registrando y corrigiendo resultados libremente sin aprobación, mientras el Administrador lleva un registro paralelo de discrepancias sin intervenir salvo error grave.",
+      "decision": "Si pasa (menos del 5% de correcciones por error y cero disputas) → perseverar con corrección libre en el MVP tal como está diseñada. Si falla (5% o más de correcciones por error, o alguna disputa formal) → pivotar a restringir la corrección al Staff asignado a esa disciplina/partido, o agregar un registro de auditoría visible al Administrador antes de escalar a un flujo de aprobación."
+    },
+    {
+      "id": "H-02",
+      "risk": "medio",
+      "assumption": "Las reglas de desempate configurables de la Tabla General (p. ej. mayor número de primeros lugares) cubren los casos reales de empate que ocurrirán en un torneo, sin requerir demasiadas intervenciones manuales del Administrador.",
+      "hypothesis": "Creemos que el Administrador podrá resolver los empates de la Tabla General usando solo las reglas configurables si definimos 2-3 criterios de desempate estándar, porque cubren los patrones más comunes de torneos por puntos (administrador.md).",
+      "metric": "Proporción de empates de la Tabla General resueltos automáticamente por las reglas configuradas frente a los que requieren el valor de desempate manual del Administrador, en una edición piloto o simulada.",
+      "threshold": "Al menos el 80% de los empates de la Tabla General se resuelven automáticamente con las reglas configuradas, sin intervención manual, al cierre de la edición piloto.",
+      "experiment": "Simulación con datos de una edición pasada o piloto: correr resultados reales o simulados de un torneo contra la lógica de reglas de desempate configurada y contar cuántos empates quedan sin resolver automáticamente.",
+      "decision": "Si pasa (80% o más resuelto automáticamente) → perseverar con las reglas de desempate configuradas tal como están. Si falla (menos del 80%) → agregar un criterio de desempate adicional configurable antes de construir el resto del MVP, o documentar explícitamente que el valor de desempate manual será frecuente y ajustar la expectativa del Administrador."
+    },
+    {
+      "id": "H-03",
+      "risk": "medio",
+      "assumption": "Cargar equipos y participantes desde una plantilla/archivo es suficientemente simple para que el Administrador no vuelva a registrar cada participante manualmente uno por uno.",
+      "hypothesis": "Creemos que el Administrador preferirá y usará la carga por plantilla en vez de la carga manual si le entregamos una plantilla simple (nombre, equipo, disciplinas), porque hoy declara que la validación manual es su mayor carga operativa (administrador.md).",
+      "metric": "Proporción de participantes de una edición piloto cargados exitosamente vía plantilla en el primer intento, frente a los cargados manualmente por error de formato o dato faltante.",
+      "threshold": "Al menos el 70% de los participantes de la edición piloto se cargan exitosamente vía plantilla en el primer intento, sin corrección manual masiva.",
+      "experiment": "Prototipo desechable: entregar al Administrador una plantilla (hoja de cálculo) para cargar los participantes de una edición real o de prueba, y medir cuántos carga así frente a cuántos termina ingresando manualmente.",
+      "decision": "Si pasa (70% o más de carga exitosa por plantilla) → perseverar con la carga por plantilla como vía principal del MVP. Si falla (menos del 70%) → pivotar a simplificar la plantilla o priorizar el flujo de carga manual asistida en vez de invertir en el importador de archivos."
+    }
+  ]
+}
