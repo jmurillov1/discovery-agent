@@ -27,8 +27,17 @@ Todo en `discoveries/sportcontrol/outputs/`.
 Se provocó un bloqueo real del `readiness-gate.py` retirando temporalmente las
 entrevistas de Staff y Capitán antes de correr `generate-mvp`; el hook bloqueó
 señalando exactamente qué personas quedaban sin respaldo de primera mano. Al
-restaurar las entrevistas, el comando pasó sin problema. Evidencia en video:
-`discovery-agent-readiness-gate-evidence.mp4`.
+restaurar las entrevistas, el comando pasó sin problema.
+
+**Video de la demo:** [`discovery-agent-readiness-gate-evidence.mp4`](./discovery-agent-readiness-gate-evidence.mp4)
+
+<video src="https://raw.githubusercontent.com/jmurillov1/discovery-agent/main/discovery-agent-readiness-gate-evidence.mp4" controls width="720">
+  Tu visor no soporta video embebido — descárgalo con el enlace de arriba.
+</video>
+
+> Nota: GitHub reproduce el video automáticamente al abrir el enlace (vista de
+> archivo con reproductor incrustado). Si el bloque `<video>` de arriba no se
+> renderiza en tu visor de Markdown, usa el enlace directo.
 
 ## Verificación de trazabilidad
 
